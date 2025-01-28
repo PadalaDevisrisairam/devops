@@ -1,0 +1,53 @@
+
+body
+{
+    background-color: rgb(231, 181, 231);
+}
+
+.root{
+    border-style: none;
+    padding: 20px;
+    margin-top: 150px;
+    
+    width: 600px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 1;
+    
+}
+
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+   
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.child1,.child2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.register{
+    width: 280px;
+    margin-left: 145px;
+    padding: 8px;
+    background-color: rgb(248, 98, 248);
+    border-style: none;
+    border-radius: 5px;
+  
+}
+.register:hover{
+    background-color: rgb(238, 146, 238);
+}
+
+.register:active{
+    background-color: rgb(217, 67, 217);
+}
